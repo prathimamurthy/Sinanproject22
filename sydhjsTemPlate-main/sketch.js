@@ -35,7 +35,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	starBody = Bodies.circle(650 , 30 , 5 , {restitution:0.5, isStatic:true});
+	starBody = Bodies.circle(750 , 30 , 5 , {restitution:0.5, isStatic:true});
 	World.add(world, starBody);
 	
 	Engine.run(engine);
